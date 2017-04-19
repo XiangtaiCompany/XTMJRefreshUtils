@@ -1,0 +1,7 @@
+XTMJRefreshUtils.xcodeproj/xcuserdata/
+XTMJRefreshUtils.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+XTMJRefreshUtils.xcodeproj/project.xcworkspace/xcuserdata/

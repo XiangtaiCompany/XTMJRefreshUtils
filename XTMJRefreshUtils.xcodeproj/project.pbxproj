@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D3845501EA70E6000D8C8D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D38454F1EA70E6000D8C8D4 /* main.m */; };
+		5D3845531EA70E6000D8C8D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3845521EA70E6000D8C8D4 /* AppDelegate.m */; };
+		5D3845561EA70E6000D8C8D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3845551EA70E6000D8C8D4 /* ViewController.m */; };
+		5D3845591EA70E6000D8C8D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D3845571EA70E6000D8C8D4 /* Main.storyboard */; };
+		5D38455B1EA70E6000D8C8D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D38455A1EA70E6000D8C8D4 /* Assets.xcassets */; };
+		5D38455E1EA70E6000D8C8D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D38455C1EA70E6000D8C8D4 /* LaunchScreen.storyboard */; };
+		5D3845681EA70F0000D8C8D4 /* XTMJRefreshUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3845671EA70F0000D8C8D4 /* XTMJRefreshUtils.m */; };
+		B07EC2897F8F3E5074C89A20 /* libPods-XTMJRefreshUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC0BD490BE61A91601CF29BE /* libPods-XTMJRefreshUtils.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D38454B1EA70E6000D8C8D4 /* XTMJRefreshUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XTMJRefreshUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D38454F1EA70E6000D8C8D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D3845511EA70E6000D8C8D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5D3845521EA70E6000D8C8D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5D3845541EA70E6000D8C8D4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5D3845551EA70E6000D8C8D4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5D3845581EA70E6000D8C8D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D38455A1EA70E6000D8C8D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D38455D1EA70E6000D8C8D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D38455F1EA70E6000D8C8D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D3845661EA70F0000D8C8D4 /* XTMJRefreshUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTMJRefreshUtils.h; sourceTree = "<group>"; };
+		5D3845671EA70F0000D8C8D4 /* XTMJRefreshUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTMJRefreshUtils.m; sourceTree = "<group>"; };
+		DBA0E299882C958AA1C1138E /* Pods-XTMJRefreshUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XTMJRefreshUtils.release.xcconfig"; path = "Pods/Target Support Files/Pods-XTMJRefreshUtils/Pods-XTMJRefreshUtils.release.xcconfig"; sourceTree = "<group>"; };
+		DC0BD490BE61A91601CF29BE /* libPods-XTMJRefreshUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XTMJRefreshUtils.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5683FD97850596A7F9F2045 /* Pods-XTMJRefreshUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XTMJRefreshUtils.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XTMJRefreshUtils/Pods-XTMJRefreshUtils.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D3845481EA70E6000D8C8D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07EC2897F8F3E5074C89A20 /* libPods-XTMJRefreshUtils.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07E124E898799079121A98A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC0BD490BE61A91601CF29BE /* libPods-XTMJRefreshUtils.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D3845421EA70E6000D8C8D4 = {
+			isa = PBXGroup;
+			children = (
+				5D38454D1EA70E6000D8C8D4 /* XTMJRefreshUtils */,
+				5D38454C1EA70E6000D8C8D4 /* Products */,
+				66AF2DECB2E06EED2C915E92 /* Pods */,
+				07E124E898799079121A98A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5D38454C1EA70E6000D8C8D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D38454B1EA70E6000D8C8D4 /* XTMJRefreshUtils.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D38454D1EA70E6000D8C8D4 /* XTMJRefreshUtils */ = {
+			isa = PBXGroup;
+			children = (
+				5D3845651EA70EF900D8C8D4 /* XTMJRefreshUtils */,
+				5D3845511EA70E6000D8C8D4 /* AppDelegate.h */,
+				5D3845521EA70E6000D8C8D4 /* AppDelegate.m */,
+				5D3845541EA70E6000D8C8D4 /* ViewController.h */,
+				5D3845551EA70E6000D8C8D4 /* ViewController.m */,
+				5D3845571EA70E6000D8C8D4 /* Main.storyboard */,
+				5D38455A1EA70E6000D8C8D4 /* Assets.xcassets */,
+				5D38455C1EA70E6000D8C8D4 /* LaunchScreen.storyboard */,
+				5D38455F1EA70E6000D8C8D4 /* Info.plist */,
+				5D38454E1EA70E6000D8C8D4 /* Supporting Files */,
+			);
+			path = XTMJRefreshUtils;
+			sourceTree = "<group>";
+		};
+		5D38454E1EA70E6000D8C8D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D38454F1EA70E6000D8C8D4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D3845651EA70EF900D8C8D4 /* XTMJRefreshUtils */ = {
+			isa = PBXGroup;
+			children = (
+				5D3845661EA70F0000D8C8D4 /* XTMJRefreshUtils.h */,
+				5D3845671EA70F0000D8C8D4 /* XTMJRefreshUtils.m */,
+			);
+			path = XTMJRefreshUtils;
+			sourceTree = "<group>";
+		};
+		66AF2DECB2E06EED2C915E92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5683FD97850596A7F9F2045 /* Pods-XTMJRefreshUtils.debug.xcconfig */,
+				DBA0E299882C958AA1C1138E /* Pods-XTMJRefreshUtils.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D38454A1EA70E6000D8C8D4 /* XTMJRefreshUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D3845621EA70E6000D8C8D4 /* Build configuration list for PBXNativeTarget "XTMJRefreshUtils" */;
+			buildPhases = (
+				4DB6386898680FD3FE9F9B45 /* [CP] Check Pods Manifest.lock */,
+				5D3845471EA70E6000D8C8D4 /* Sources */,
+				5D3845481EA70E6000D8C8D4 /* Frameworks */,
+				5D3845491EA70E6000D8C8D4 /* Resources */,
+				2E8BA4FF11E5E4BAB7A73263 /* [CP] Embed Pods Frameworks */,
+				8C628EB3EFA16AABCB72720D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XTMJRefreshUtils;
+			productName = XTMJRefreshUtils;
+			productReference = 5D38454B1EA70E6000D8C8D4 /* XTMJRefreshUtils.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D3845431EA70E6000D8C8D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = HeXiaoBa;
+				TargetAttributes = {
+					5D38454A1EA70E6000D8C8D4 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = UP724GFX7H;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5D3845461EA70E6000D8C8D4 /* Build configuration list for PBXProject "XTMJRefreshUtils" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D3845421EA70E6000D8C8D4;
+			productRefGroup = 5D38454C1EA70E6000D8C8D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D38454A1EA70E6000D8C8D4 /* XTMJRefreshUtils */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D3845491EA70E6000D8C8D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D38455E1EA70E6000D8C8D4 /* LaunchScreen.storyboard in Resources */,
+				5D38455B1EA70E6000D8C8D4 /* Assets.xcassets in Resources */,
+				5D3845591EA70E6000D8C8D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E8BA4FF11E5E4BAB7A73263 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XTMJRefreshUtils/Pods-XTMJRefreshUtils-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DB6386898680FD3FE9F9B45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8C628EB3EFA16AABCB72720D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XTMJRefreshUtils/Pods-XTMJRefreshUtils-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D3845471EA70E6000D8C8D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D3845681EA70F0000D8C8D4 /* XTMJRefreshUtils.m in Sources */,
+				5D3845561EA70E6000D8C8D4 /* ViewController.m in Sources */,
+				5D3845531EA70E6000D8C8D4 /* AppDelegate.m in Sources */,
+				5D3845501EA70E6000D8C8D4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D3845571EA70E6000D8C8D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D3845581EA70E6000D8C8D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D38455C1EA70E6000D8C8D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D38455D1EA70E6000D8C8D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D3845601EA70E6000D8C8D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5D3845611EA70E6000D8C8D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D3845631EA70E6000D8C8D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5683FD97850596A7F9F2045 /* Pods-XTMJRefreshUtils.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UP724GFX7H;
+				INFOPLIST_FILE = XTMJRefreshUtils/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XiangTai.XTMJRefreshUtils;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D3845641EA70E6000D8C8D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBA0E299882C958AA1C1138E /* Pods-XTMJRefreshUtils.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UP724GFX7H;
+				INFOPLIST_FILE = XTMJRefreshUtils/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XiangTai.XTMJRefreshUtils;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D3845461EA70E6000D8C8D4 /* Build configuration list for PBXProject "XTMJRefreshUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D3845601EA70E6000D8C8D4 /* Debug */,
+				5D3845611EA70E6000D8C8D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D3845621EA70E6000D8C8D4 /* Build configuration list for PBXNativeTarget "XTMJRefreshUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D3845631EA70E6000D8C8D4 /* Debug */,
+				5D3845641EA70E6000D8C8D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D3845431EA70E6000D8C8D4 /* Project object */;
+}
